@@ -1,10 +1,10 @@
-### 1 задание на олимпе
+### 1 Р·Р°РґР°РЅРёРµ
 name1 = input()
 name2 = input()
 
 print(name1 + " and " + name2 + " was here")
 
-### 2 задание на олимпе
+### 2 Р·Р°РґР°РЅРёРµ
 names1 = input().split()
 names2 = input().split()
 
@@ -16,7 +16,7 @@ for i in range(len(names1)):
 
 print(",".join(result))
 
-### 3 задание на олимпе
+### 3 Р·Р°РґР°РЅРёРµ
 line1 = input()
 line2 = input()
 line3 = input()
@@ -33,14 +33,14 @@ total = len(word1) * num1 + len(word2) * num2 + len(word3) * num3
 
 print(total)
 
-### 4 задание на олимпе
+### 4 Р·Р°РґР°РЅРёРµ
 text = input()
-n = len(text) + 4  # длина средней строки
+n = len(text) + 4  # Г¤Г«ГЁГ­Г  Г±Г°ГҐГ¤Г­ГҐГ© Г±ГІГ°Г®ГЄГЁ
 print("*" * n)
 print("* " + text + " *")
 print("*" * n)
 
-### 5 задание на олимпе
+### 5 Р·Р°РґР°РЅРёРµ
 h1, m1, s1 = map(int, input().split())
 h2, m2, s2 = map(int, input().split())
 
@@ -49,7 +49,7 @@ finish = h2 * 3600 + m2 * 60 + s2
 
 print(finish - start)
 
-### 6 задание на олимпе
+### 6 Р·Р°РґР°РЅРёРµ
 
 n = int(input())
 
@@ -58,14 +58,14 @@ if n == 1:
 else:
     print(n - 1)
 
-### 7 задание на олимпе
+### 7 Р·Р°РґР°РЅРёРµ
 a, b, c = map(int, input().split())
 if a == 3 and b == 3 and c == 3:
     print("hole")
 else:
     print(a + b + c)
 
-### 8 задание на олимпе
+### 8 Р·Р°РґР°РЅРёРµ
 
 word1, word2, word3 = input().split()
 
@@ -76,7 +76,7 @@ elif len(word2) > len(word3):
 else:
     print(word3)
 
-### 9 задание на олимпе
+### 9 Р·Р°РґР°РЅРёРµ
 
 a, b = map(int, input().split())
 
@@ -88,7 +88,7 @@ elif a > b:
 else:
     print("=")
 
-### 10 задание на олимпе
+### 10 Р·Р°РґР°РЅРёРµ
 
 A, B, C = map(int, input().split())
 
@@ -102,7 +102,7 @@ elif C > right:
 else:
     print(0)
 
-### 11 задание на олимпе
+### 11 Р·Р°РґР°РЅРёРµ
 
 n = int(input())
 
@@ -118,7 +118,7 @@ while n != 1:
 
 print(n)
 
-### 12 задание на олимпе
+### 12 Р·Р°РґР°РЅРёРµ
 
 n = int(input())
 
@@ -130,7 +130,7 @@ while power * 2 <= n:
 
 print(power)
 
-### 13 задание на олимпе
+### 13 Р·Р°РґР°РЅРёРµ
 
 position = 1
 
@@ -143,7 +143,7 @@ while True:
     
     position += 1
 
-### 14 задание на олимпе
+### 14 Р·Р°РґР°РЅРёРµ
 
 n, a = map(int, input().split())
 
@@ -157,7 +157,7 @@ while count < n:
     
     current += 1
 
-### 15 задание на олимпе
+### 15 Р·Р°РґР°РЅРёРµ
 
 parts = input().split()
 
