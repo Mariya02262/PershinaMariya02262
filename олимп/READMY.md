@@ -1,10 +1,12 @@
 ### 1 задание
+```
 name1 = input()
 name2 = input()
 
 print(name1 + " and " + name2 + " was here")
-
+```
 ### 2 задание
+```
 names1 = input().split()
 names2 = input().split()
 
@@ -15,8 +17,9 @@ for i in range(len(names1)):
         result.append(names2[i])
 
 print(",".join(result))
-
+```
 ### 3 задание
+```
 line1 = input()
 line2 = input()
 line3 = input()
@@ -32,15 +35,17 @@ num3 = int(num3)
 total = len(word1) * num1 + len(word2) * num2 + len(word3) * num3
 
 print(total)
-
+```
 ### 4 задание
+```
 text = input()
 n = len(text) + 4  # äëèíà ñðåäíåé ñòðîêè
 print("*" * n)
 print("* " + text + " *")
 print("*" * n)
-
+```
 ### 5 задание
+```
 h1, m1, s1 = map(int, input().split())
 h2, m2, s2 = map(int, input().split())
 
@@ -48,25 +53,26 @@ start = h1 * 3600 + m1 * 60 + s1
 finish = h2 * 3600 + m2 * 60 + s2
 
 print(finish - start)
-
+```
 ### 6 задание
-
+```
 n = int(input())
 
 if n == 1:
     print("pusk")
 else:
     print(n - 1)
-
+```
 ### 7 задание
+```
 a, b, c = map(int, input().split())
 if a == 3 and b == 3 and c == 3:
     print("hole")
 else:
     print(a + b + c)
-
+```
 ### 8 задание
-
+```
 word1, word2, word3 = input().split()
 
 if len(word1) > len(word2) and len(word1) > len(word3):
@@ -75,9 +81,9 @@ elif len(word2) > len(word3):
     print(word2)
 else:
     print(word3)
-
+```
 ### 9 задание
-
+```
 a, b = map(int, input().split())
 
 
@@ -87,9 +93,9 @@ elif a > b:
     print(">")
 else:
     print("=")
-
+```
 ### 10 задание
-
+```
 A, B, C = map(int, input().split())
 
 left = min(A, B)
@@ -101,9 +107,9 @@ elif C > right:
     print(C - right)
 else:
     print(0)
-
+```
 ### 11 задание
-
+```
 n = int(input())
 
 while n != 1:
@@ -117,9 +123,9 @@ while n != 1:
         n = n * 3 + 1
 
 print(n)
-
+```
 ### 12 задание
-
+```
 n = int(input())
 
 
@@ -129,9 +135,9 @@ while power * 2 <= n:
     power = power * 2
 
 print(power)
-
+```
 ### 13 задание
-
+```
 position = 1
 
 while True:
@@ -142,9 +148,9 @@ while True:
         break
     
     position += 1
-
+```
 ### 14 задание
-
+```
 n, a = map(int, input().split())
 
 count = 0
@@ -156,9 +162,9 @@ while count < n:
         count += 1
     
     current += 1
-
+```
 ### 15 задание
-
+```
 parts = input().split()
 
 a = 0
@@ -175,3 +181,4 @@ while b != 0:
     b = temp
 
 print(a)
+```
