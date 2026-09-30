@@ -44,14 +44,16 @@ int main() {
     int x = d; 
     std::cout << x << std::endl;
     return 0;
-}```
+}
+```
 ![](03.png)
 
 * Программа успешно компилируется и выводит число 3.
 Дробная часть числа 3.14 отсекается.
 
 * тот же код на Java:
-```public class Main {
+```
+public class Main {
     public static void main(String[] args) {
         double d = 3.14;
         int x = d;
