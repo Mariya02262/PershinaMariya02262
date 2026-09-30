@@ -39,7 +39,7 @@ print(total)
 ### 4 задание
 ```
 text = input()
-n = len(text) + 4  # äëèíà ñðåäíåé ñòðîêè
+n = len(text) + 4  
 print("*" * n)
 print("* " + text + " *")
 print("*" * n)
