@@ -86,33 +86,3 @@ print(result)
 ```
 
 
-### 5 задание
-
-```
-s = input().strip()
-ans = []
-
-i = 0
-while i < len(s):
-    k = 0
-    while s[i] == '0':
-        k += 1
-        i += 1
-        
-    z = k + 1
-    
-    y_str = s[i:i+z]
-    y = int(y_str, 2)
-    
-    i += z
-    
-    x_str = '1' + s[i:i + y - 1]
-    x = int(x_str, 2)
-    
-    i += (y - 1)
-    
-    ans.append(str(x))
-
-print(len(ans))
-print(" ".join(ans))
-```
